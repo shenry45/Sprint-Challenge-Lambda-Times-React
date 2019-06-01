@@ -16,9 +16,11 @@ const Card = props => {
 };
 
 Card.propTypes = {
-  headline: PropTypes.string,
-  img: PropTypes.string,
-  author: PropTypes.string,
+  card: PropTypes.shape({
+    headline: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+  })
 }
 
 export default Card;
