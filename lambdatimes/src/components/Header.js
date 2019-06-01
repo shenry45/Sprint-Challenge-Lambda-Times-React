@@ -29,12 +29,6 @@ const HeaderDiv = styled.div`
   @media (min-width: 1280px) {
     width: 1280px;
   }
-  span {
-    align-self: flex-end;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
 `;
 const HeaderDate = styled.span`
   align-self: flex-end;
